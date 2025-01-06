@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const emailLink = document.querySelector('.email-link');
         emailLink.addEventListener('click', (e) => {
             e.preventDefault();
-            const emailAddress = 'your.email@example.com'; // Replace with your actual email
+            const emailAddress = 't.babalolajoseph@gmail.com'; // Replace with your actual email
             const subject = 'Inquiry from Portfolio';
             const body = 'Hello Babalola T,\n\nI visited your portfolio and would like to connect with you regarding...';
             window.location.href = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
