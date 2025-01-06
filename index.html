@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babalola T - Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BT</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <img src="/assets/imgs/profile-img.jpg" alt="Babalola T" class="profile-image">
+                <h1>Babalola Taiwo</h1>
+                <h2>Frontend Developer</h2>
+                <!-- <p>Crafting Engaging Digital Experiences</p> -->
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View My Projects</a>
+                    <a href="#contact" class="btn secondary">Get In Touch</a>
+                </div>
+                <div class="hero-social-links">
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="email-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I am a passionate frontend developer with a keen eye for creating intuitive and visually appealing user interfaces. My expertise lies in translating design concepts into responsive, interactive web applications that deliver exceptional user experiences.</p>
+                <p>With a strong foundation in modern web technologies and a commitment to staying current with industry trends, I strive to build scalable, efficient, and maintainable code that brings ideas to life in the digital realm.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="/assets/imgs/propty-bridge.jpg" alt="Propty-Bridge Project">
+                    <h3>Propty-Bridge</h3>
+                    <p>A real estate solution with dynamic front-end development.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn">Live Demo</a>
+                        <a href="#" class="btn">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/assets/imgs/Interior-portfolio.jpg" alt="Interior Designer Portfolio">
+                    <h3>Interior Designer Portfolio</h3>
+                    <p>A creative, responsive portfolio for an interior designer.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn">Live Demo</a>
+                        <a href="#" class="btn">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="/assets/imgs/3mtt-TaskManager.jpg" alt="Propty-Bridge Project">
+                    <h3>Task Manager WebApp</h3>
+                    <p>A dynamic web application for efficient task management</p>
+                    <div class="project-links">
+                        <a href="#" class="btn">Live Demo</a>
+                        <a href="#" class="btn">GitHub</a>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML5</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
+                        <li><i class="fab fa-react"></i> React</li>
+                        <!-- <li><i class="fab fa-vuejs"></i> Vue.js</li>
+                        <li><i class="fab fa-sass"></i> Sass</li> -->
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Frameworks</h3>
+                    <ul>
+                        <li><i class="fab fa-git-alt"></i> Git</li>
+                        <!-- <li><i class="fab fa-npm"></i> npm</li> -->
+                        <!-- <li><i class="fab fa-webpack"></i> Webpack</li> -->
+                        <li><i class="fas fa-mobile-alt"></i> Responsive Design</li>
+                    </ul>
+                </div>
+
+                <!-- <div class="skill-category">
+                    <h3>UI/UX</h3>
+                    <ul>
+                        <li><i class="fab fa-figma"></i> Figma</li>
+                        <li><i class="fas fa-universal-access"></i> Accessibility</li>
+                        <li><i class="fas fa-paint-brush"></i> UI Animation</li>
+                    </ul>
+                </div> -->
+                
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li><i class="fas fa-users"></i> Teamwork</li>
+                        <li><i class="fas fa-lightbulb"></i> Problem Solving</li>
+                        <li><i class="fas fa-comments"></i> Communication</li>
+                        <li><i class="fas fa-tasks"></i> Project Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Let's Connect</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <select name="inquiry-type" required>
+                    <option value="">Select Inquiry Type</option>
+                    <option value="job-opportunity">Job Opportunity</option>
+                    <option value="project-collaboration">Project Collaboration</option>
+                    <option value="general-inquiry">General Inquiry</option>
+                </select>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Babalola T. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
